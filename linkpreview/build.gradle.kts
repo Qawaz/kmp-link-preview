@@ -78,7 +78,7 @@ afterEvaluate {
                 /** Configure path of your package repository on Github
                  *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
                  */
-                url = uri("https://maven.pkg.github.com/codeckle/compose-link-preview")
+                url = uri("https://maven.pkg.github.com/codeckle/kmp-link-preview")
 
                 runCatching {
                     credentials {

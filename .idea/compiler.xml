@@ -7,6 +7,9 @@
       <module name="compose-link-preview.buildSrc.main" target="11" />
       <module name="compose-link-preview.buildSrc.test" target="11" />
       <module name="compose-link-preview.linkpreview" target="1.8" />
+      <module name="kmp-link-preview.buildSrc" target="11" />
+      <module name="kmp-link-preview.buildSrc.main" target="11" />
+      <module name="kmp-link-preview.buildSrc.test" target="11" />
       <module name="KMPLinkPreview.android" target="11" />
       <module name="KMPLinkPreview.desktop" target="11" />
       <module name="KMPLinkPreview.linkpreview" target="11" />

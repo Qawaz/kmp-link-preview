@@ -15,10 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopMain.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/compose-link-preview.buildSrc.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/richlink.iml" filepath="$PROJECT_DIR$/richlink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.test.iml" />
     </modules>
   </component>
 </project>
