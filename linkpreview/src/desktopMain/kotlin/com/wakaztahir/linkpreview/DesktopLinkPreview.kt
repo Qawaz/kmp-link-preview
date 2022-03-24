@@ -146,7 +146,7 @@ private fun resolveURL(url: String, part: String): String? {
         part
     } else {
         return try {
-            URI(url).resolve(part).toString().also { println("resolved + $it") }
+            URI(url).resolve(part).toString()
         } catch (e: java.lang.Exception) {
             e.printStackTrace()
             null
