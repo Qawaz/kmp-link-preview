@@ -5,18 +5,17 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${BuildConfig.Info.KotlinVersion}")
-        classpath("com.android.tools.build:gradle:7.0.4")
         classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4")
         classpath("com.github.dcendents:android-maven-gradle-plugin:1.4.1")
     }
 }
 
-group = BuildConfig.Info.group
-version = BuildConfig.Info.version
-
 plugins {
-    id("org.jetbrains.dokka") version BuildConfig.Info.DokkaVersion
+    kotlin("multiplatform").apply(false)
+    id("org.jetbrains.compose").apply(false)
+    id("com.android.application").apply(false)
+    id("com.android.library").apply(false)
+    id("org.jetbrains.dokka")
 }
 
 tasks.withType<org.jetbrains.dokka.gradle.DokkaMultiModuleTask>(){

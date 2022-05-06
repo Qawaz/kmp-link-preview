@@ -4,20 +4,20 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMPLinkPreview.iml" filepath="$PROJECT_DIR$/.idea/modules/KMPLinkPreview.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/KMPLinkPreview.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/KMPLinkPreview.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/KMPLinkPreview.buildSrc.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.commonMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.commonTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.jvmMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/KMPLinkPreview.desktop.jvmTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.androidAndroidTestRelease.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.commonTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopMain.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/KMPLinkPreview.linkpreview.desktopTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kmp-link-preview.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.androidAndroidTestRelease.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.androidAndroidTestRelease.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.desktopMain.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.desktopMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.desktopTest.iml" filepath="$PROJECT_DIR$/.idea/modules/linkpreview/com.wakaztahir.KMPLinkPreview.linkpreview.desktopTest.iml" />
     </modules>
   </component>
 </project>

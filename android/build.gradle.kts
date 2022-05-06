@@ -1,11 +1,8 @@
 plugins {
-    id("org.jetbrains.compose") version BuildConfig.Info.ComposeVersion
+    id("org.jetbrains.compose")
     id("com.android.application")
     kotlin("android")
 }
-
-group = BuildConfig.Info.group
-version = BuildConfig.Info.version
 
 dependencies {
     implementation("androidx.activity:activity-compose:1.4.0")
@@ -15,17 +12,17 @@ dependencies {
         implementation(material)
         implementation(foundation)
     }
-    implementation("io.coil-kt:coil-compose:2.0.0-rc02")
+    implementation("io.coil-kt:coil-compose:2.0.0-rc03")
 }
 
 android {
-    compileSdk = BuildConfig.Android.compileSdkVersion
+    compileSdk = 31
     defaultConfig {
         applicationId = "com.wakaztahir.android"
-        minSdk = BuildConfig.Android.minSdkVersion
-        targetSdk = BuildConfig.Android.targetSdkVersion
-        versionCode = BuildConfig.Info.versionCode
-        versionName = BuildConfig.Info.version
+        minSdk = 21
+        targetSdk = 31
+        versionCode = 1
+        versionName = "1.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

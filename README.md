@@ -14,5 +14,5 @@ the metadata information about the site , Use it however you like
 
 ```kotlin
 // getLinkPreview throws an exception when encounters an error
-val preview = runCatching { getLinkPreview(url) }.getOrNull()
+val preview = try { getLinkPreview(url) }catch(ex : Exception){ null }
 ```
