@@ -12,11 +12,11 @@ group = "com.wakaztahir"
 version = property("version") as String
 
 android {
-    compileSdk = 31
+    compileSdk = 32
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdk = 21
-        targetSdk = 31
+        targetSdk = 32
         consumerProguardFiles("proguard-rules.pro")
     }
     compileOptions {
@@ -75,7 +75,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GithubPackages"
-                url = uri("https://maven.pkg.github.com/codeckle/kmp-link-preview")
+                url = uri("https://maven.pkg.github.com/Qawaz/kmp-link-preview")
 
                 runCatching {
                     credentials {
