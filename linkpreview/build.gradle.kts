@@ -5,18 +5,16 @@ plugins {
     kotlin("multiplatform")
     id("maven-publish")
     id("com.android.library")
-    id("org.jetbrains.dokka")
 }
 
 group = "com.wakaztahir"
 version = property("version") as String
 
 android {
-    compileSdk = 32
+    compileSdk = 33
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdk = 21
-        targetSdk = 32
         consumerProguardFiles("proguard-rules.pro")
     }
     compileOptions {
@@ -34,6 +32,10 @@ kotlin {
             kotlinOptions.jvmTarget = "11"
         }
     }
+    js(IR) {
+        browser()
+        binaries.executable()
+    }
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -50,11 +52,11 @@ kotlin {
                 implementation("org.jsoup:jsoup:1.13.1")
             }
         }
-        val androidTest by getting {
-            dependencies {
-                implementation("junit:junit:4.13.2")
-            }
-        }
+//        val androidTest by getting {
+//            dependencies {
+//                implementation("junit:junit:4.13.2")
+//            }
+//        }
         val desktopMain by getting {
             dependencies {
                 implementation("org.jsoup:jsoup:1.13.1")
@@ -66,23 +68,15 @@ kotlin {
     }
 }
 
-val githubProperties = Properties()
-kotlin.runCatching { githubProperties.load(FileInputStream(rootProject.file("github.properties"))) }
-    .onFailure { it.printStackTrace() }
-
 afterEvaluate {
     publishing {
         repositories {
-            maven {
+            maven("https://maven.pkg.github.com/Qawaz/kmp-link-preview") {
                 name = "GithubPackages"
-                url = uri("https://maven.pkg.github.com/Qawaz/kmp-link-preview")
-
-                runCatching {
-                    credentials {
-                        username = (githubProperties["gpr.usr"] ?: System.getenv("GPR_USER")).toString()
-                        password = (githubProperties["gpr.key"] ?: System.getenv("GPR_API_KEY")).toString()
-                    }
-                }.onFailure { it.printStackTrace() }
+                credentials {
+                    username = (System.getenv("GPR_USER"))!!.toString()
+                    password = (System.getenv("GPR_API_KEY"))!!.toString()
+                }
             }
         }
     }
